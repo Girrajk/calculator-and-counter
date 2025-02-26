@@ -1,0 +1,35 @@
+.counter-box{
+    border: 5px groove blue;
+    height: 280px;
+    width: 280px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-image: linear-gradient(yellow,yellowgreen);
+    border-radius: 20px;
+    box-shadow: 0 0 7px black;
+}
+
+.counter-box button{
+    width: 100%;
+    padding: 7px;
+    background-color: black;
+    color: gold;
+    border: none;
+    border-radius: 5px;
+    box-shadow:  0 0 3px black;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.counter-box h1{
+    font-size: 2rem;
+    color: purple;
+}
+
+.counter-box p{
+    font-size: 1.5rem;
+}

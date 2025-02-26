@@ -1,0 +1,47 @@
+.cal-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px black;
+    background-color: rgb(223, 126, 142);
+}
+
+.cal-container input, select{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 7px;
+    box-shadow: 0 0 5px black;
+}
+
+.cal-container select{
+    margin-top: 5px;
+
+}
+.cal-container button{
+    padding: 5px;
+    font-size: 17px;
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cal-container label{
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+.cal-container p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: green;
+
+}
